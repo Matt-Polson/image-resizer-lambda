@@ -7,7 +7,8 @@ import sharp from "sharp";
 
 const S3 = new S3Client();
 const DEST_BUCKET = process.env.DEST_BUCKET;
-const THUMBNAIL_WIDTH = 200; // px
+const THUMBNAIL_WIDTH = 211.8; // px
+const THUMBNAIL_HEIGHT = 166.2; // px
 const SUPPORTED_FORMATS = {
   jpg: true,
   jpeg: true,
